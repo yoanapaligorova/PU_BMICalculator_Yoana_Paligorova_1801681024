@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#858C7D"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_history"
+        android:textSize="40sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@color/black"/>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:background="#80000000"
+       android:gravity="center_vertical">
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/your_data"
+           android:textColor="@color/white"
+           android:layout_marginBottom="30dp"
+           android:textSize="20sp"
+           android:layout_gravity="center"/>
+
+         <TextView
+            android:id="@+id/text_Weight"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="25sp"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+             android:layout_marginBottom="50dp"
+            android:background="@drawable/rounded_text"
+             android:autofillHints="" />
+
+         <TextView
+        android:id="@+id/text_Height"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rounded_text"
+             android:layout_marginBottom="50dp"
+             android:autofillHints="" />
+
+         <TextView
+        android:id="@+id/text_Bmi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/rounded_text"/>
+
+         <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/calc_btn"
+            android:text="@string/delete"
+            android:textStyle="normal"
+            android:textSize="20sp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            />
+
+   </LinearLayout>
+
+</LinearLayout>
